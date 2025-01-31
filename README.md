@@ -23,7 +23,7 @@ Hoisagers.com is a splash page template for an upcoming experience. The site is 
 ## Setup & Deployment
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/hoisagers.com.git
+git clone https://github.com/dwhjr/hoisagers.com.git
 cd hoisagers.com
 ```
 
