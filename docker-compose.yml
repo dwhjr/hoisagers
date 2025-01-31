@@ -1,0 +1,15 @@
+services:
+  hoisagers:
+    container_name: hoisagers
+    image: hoisagers-image
+    build: .
+    ports:
+      - "8082:80"  # Ensure this port does not conflict with other running containers
+    restart: unless-stopped
+    networks:
+      - web_network
+
+networks:
+  web_network:
+    external: true
+
